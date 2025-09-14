@@ -36,13 +36,21 @@ console.log(SCHOOL)
 // Task 3.1 — arithmetic basics
 // Given let x = 8, y = 3; log x+y, x-y, x*y, x/y, x%y.
 // write code here
+let x = 8; 
+let y= 3;
 
-
+console.log("x + y = "+ x+y)
+console.log("x - y = "+ x-y)
+console.log("x * y = "+ x*y)
+console.log("x / y = "+ x/y)
+console.log("x % y = "+ x%y)
 
 // Task 3.2 — number vs string
 // Display results of "2" + 3, 2 + "3", and 2 + 3. Add a short comment: why do the first two concatenate?
 // write code here
-
+console.log("2" + 3) // because they are differnet in data type and js allows the "+" between them just to concatinate only
+console.log(2 + "3")
+console.log(2 + 3)
 
 // Read chapter 4 in zyBooks: Compound Assignment Operators
 
