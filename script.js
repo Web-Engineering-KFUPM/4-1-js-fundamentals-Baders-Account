@@ -133,11 +133,18 @@ switch(day){
 // Task 5.1 — for loop sum
 // TODO: Sum integers 1..10 with a for loop; display the result of total sum.
 // write code here
+let result=0;
+for(i=0; i<=10;i++){
+    result=result+i
+}
+
+console.log(result)
 
 
 // Task 5.2 — while loop
 // let t = 3; while(t > 0), decrement the value t variable in each iteration and display the result.
 // write code here
+
 
 
 // Read Chapter 4 in zyBooks: Do-While Loop
