@@ -41,7 +41,7 @@ let y= 3;
 
 console.log("x + y = "+ x+y)
 console.log(x + " " + y)
-console.log("x - y = "+ x-y)
+console.log("x - y = "+ y-x)
 console.log("x * y = "+ x*y)
 console.log("x / y = "+ x/y)
 console.log("x % y = "+ x%y)
@@ -93,15 +93,34 @@ else{
 
 let day = "Sat"
 switch(day){
-    case  "Mon" | "Tue" | "Wed" |"Thu" | "Fri":
+    case  "Mon":
          console.log("Weekday");
     break;
     
-    case "Sat"| "Sun" : 
-    console.log("Weekend");
+    case "Tue" : 
+    console.log("Weekday"); 
     break;
 
-    default: console.log("Unknown")
+    case "Wed" : 
+    console.log("Weekday"); 
+    break;
+
+    case "Thu" : 
+    console.log("Weekday"); 
+    break;
+
+    case "Fri" : 
+    console.log("Weekday"); 
+    break;
+    
+    case "Sat" : 
+    console.log("Weekend");
+    break;
+    case "Sun" : 
+    console.log("Weekday"); 
+    break;
+
+    default: console.log("Unknown");
 
 }
 
