@@ -19,6 +19,13 @@ console.log(course)
 // NOTE: For now, keep the reassignment line commented so the file runs without errors.
 // const SCHOOL = "MyCollege";
 // SCHOOL = "OtherCollege"; // <-- Uncomment to see the error, then re-comment after testing
+const SCHOOL = "MyCollege";
+console.log(SCHOOL)
+
+//SCHOOL = "MySchool"
+//console.log(SCHOOL) 
+// 
+// there was an error because the identifier const does not allow to change the value assign to it 
 
 
 
@@ -29,6 +36,7 @@ console.log(course)
 // Task 3.1 — arithmetic basics
 // Given let x = 8, y = 3; log x+y, x-y, x*y, x/y, x%y.
 // write code here
+
 
 
 // Task 3.2 — number vs string
