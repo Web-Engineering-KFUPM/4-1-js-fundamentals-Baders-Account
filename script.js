@@ -21,6 +21,7 @@ console.log(course)
 // SCHOOL = "OtherCollege"; // <-- Uncomment to see the error, then re-comment after testing
 
 
+
 // ==========================
 // TODO-3: ARITHMETIC & TYPES
 // ==========================
