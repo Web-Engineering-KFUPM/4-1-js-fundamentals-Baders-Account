@@ -10,7 +10,8 @@ console.log("%cJS Lab Connected — Start completing the TODOs!", "font-weight:b
 let course = "CIS101";
 console.log(course)
 course = "CIS102"
-console.log(course)
+console.log(course) 
+
 
 
 // Task 2.2 — const safety
