@@ -146,7 +146,7 @@ console.log(result)
 
 let t = 3;
 while(t>0){
-    console.log()
+    console.log("Value of t = "+(t))
     t= t-1;
     
 }
