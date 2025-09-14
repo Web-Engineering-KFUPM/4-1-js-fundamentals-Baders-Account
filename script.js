@@ -40,6 +40,7 @@ let x = 8;
 let y= 3;
 
 console.log("x + y = "+ x+y)
+console.log(x + " " + y)
 console.log("x - y = "+ x-y)
 console.log("x * y = "+ x*y)
 console.log("x / y = "+ x/y)
@@ -67,6 +68,19 @@ console.log(2 + 3)
 //         - "Young" if age is between 13 and 35
 //         - "Aged" if age > 35
 // write code here
+let userInput = prompt("Enter your age please: ")
+if(userInput >35){
+    console.log("Aged")
+
+}
+else if(userInput < 13){
+    console.log("Child")
+}
+else{
+    console.log("Young")
+}
+
+
 
 
 // Task 4.2 — Switch statement
@@ -76,6 +90,20 @@ console.log(2 + 3)
 //         - If it is "Sat" or "Sun", log "weekend".
 //         - For any other value, log "unknown".
 // write code here
+
+let day = "Sat"
+switch(day){
+    case  "Mon" | "Tue" | "Wed" |"Thu" | "Fri":
+         console.log("Weekday");
+    break;
+    
+    case "Sat"| "Sun" : 
+    console.log("Weekend");
+    break;
+
+    default: console.log("Unknown")
+
+}
 
 // Read Chapter 4 in zyBooks: Conditional (ternary) operator
 
